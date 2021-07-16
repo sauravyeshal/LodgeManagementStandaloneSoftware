@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8CCDDEEE-22CC-49B1-9A15-2A229AD4556A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Triveni_Executive_Lodge</RootNamespace>
+    <AssemblyName>Triveni_Executive_Lodge</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customer_Record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Record.Designer.cs">
+      <DependentUpon>Customer_Record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_Registration.Designer.cs">
+      <DependentUpon>Employee_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeRecord.Designer.cs">
+      <DependentUpon>EmployeeRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodPrice.Designer.cs">
+      <DependentUpon>FoodPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GujratPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GujratPanel.Designer.cs">
+      <DependentUpon>GujratPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hydrabad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hydrabad.Designer.cs">
+      <DependentUpon>Hydrabad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KerlaPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KerlaPanel.Designer.cs">
+      <DependentUpon>KerlaPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginform.Designer.cs">
+      <DependentUpon>loginform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaharashtraPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaharashtraPanel.Designer.cs">
+      <DependentUpon>MaharashtraPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewCustomer.Designer.cs">
+      <DependentUpon>NewCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="food.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="food.Designer.cs">
+      <DependentUpon>food.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanjabPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanjabPanel.Designer.cs">
+      <DependentUpon>PanjabPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoomSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomSetup.Designer.cs">
+      <DependentUpon>RoomSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrivenidbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrivenidbDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Customer_Record.resx">
+      <DependentUpon>Customer_Record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_Registration.resx">
+      <DependentUpon>Employee_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeRecord.resx">
+      <DependentUpon>EmployeeRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodPrice.resx">
+      <DependentUpon>FoodPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GujratPanel.resx">
+      <DependentUpon>GujratPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hydrabad.resx">
+      <DependentUpon>Hydrabad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KerlaPanel.resx">
+      <DependentUpon>KerlaPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginform.resx">
+      <DependentUpon>loginform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaharashtraPanel.resx">
+      <DependentUpon>MaharashtraPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewCustomer.resx">
+      <DependentUpon>NewCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="food.resx">
+      <DependentUpon>food.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanjabPanel.resx">
+      <DependentUpon>PanjabPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RoomSetup.resx">
+      <DependentUpon>RoomSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TrivenidbDataSet.xsc">
+      <DependentUpon>TrivenidbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TrivenidbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrivenidbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TrivenidbDataSet.xss">
+      <DependentUpon>TrivenidbDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\144266030904-min.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blurred-background-close-up-coffee-cup-908284.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triveni-executive-lodging-jalna-lodging-services-6atcn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\houston-hope-lodge-reception.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triveni-executive-lodging-jalna-ho-jalna-lodging-services-41edlga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apps.60402.9007199266251247.f1fdb3b6-91b5-4fb9-a832-427182d0b2db.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lodge-reception.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triveni-executive-lodging-jalna-lodging-services-6atcn1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triveni-executive-lodging-jalna-ho-jalna-lodging-services-2a813o0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-avatar-user-login-5ae149b1d11742.9838994015247139058565.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_user_117687.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-login-man-human-body-mobile-person-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\__59_user_login_icon_307876.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\__59_user_login_icon_3078761.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_user_1176871.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9IH3kgCJMMqH4O3vNMy0iwHaHa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\89-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-lodge-01-300x300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-microsoft-excel-microsoft-office-icon-excel-png-picture-rh-png-library-com-small-check-mark-check-mark-graphic-for-excel-excel-clipart-check-mark-260_240.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big_batata_poha_%28_quick_recipe_%29-8150.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vada-pav-sometimes-spelled-wada-popular-vegetarian-fast-food-dish-native-to-indian-state-maharashtra-90764721.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pav-Bhaji.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thalipeeth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dish-two-hires.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\konkan-food-trail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_115111974-stock-photo-maharashtrian-or-marathi-food-platter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dish-two-hires1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dal_625x350_61464936734.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khaman-dhokla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\methi-paratha_625x350_51460966144.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khichdi-625_625x350_61451289605.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patra_620x330_51518071961.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61879742.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner2[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nahar-Restaurant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_2591a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\best-south-indian-food-wedding-lunch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uttapam-1024x684.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hyderabdi-dum-chicken-biryani.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\296806262_a0a7ae4921_z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2172142213_9178f0c480_z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2173154544_89a252898c_z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2303829166_5dc1ca5eb9_z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4779952309_c97d25813a_z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thalassery_biryani.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\316269329_c4098aa64f_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4395603215_e8527522ff_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sarson-ki-saag_makki_di_roti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9542254374_9b457721f8_k.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9411207170_a8e5febebb_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7385665010_f4819c468d_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicsArt_03-13-11.25.53.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guest-house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicsArt_03-13-11.25.531.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

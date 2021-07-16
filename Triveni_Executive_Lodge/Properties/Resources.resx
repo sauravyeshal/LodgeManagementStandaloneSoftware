@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="triveni-executive-lodging-jalna-lodging-services-6atcn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triveni-executive-lodging-jalna-lodging-services-6atcn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triveni-executive-lodging-jalna-ho-jalna-lodging-services-2a813o0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triveni-executive-lodging-jalna-ho-jalna-lodging-services-2a813o0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2173154544_89a252898c_z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2173154544_89a252898c_z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9411207170_a8e5febebb_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9411207170_a8e5febebb_o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_user_117687" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_user_117687.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="account-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triveni-executive-lodging-jalna-ho-jalna-lodging-services-41edlga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triveni-executive-lodging-jalna-ho-jalna-lodging-services-41edlga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner2[1]" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banner2[1].jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PicsArt_03-13-11.25.53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PicsArt_03-13-11.25.53.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thalassery_biryani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thalassery_biryani.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guest-house" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guest-house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download-microsoft-excel-microsoft-office-icon-excel-png-picture-rh-png-library-com-small-check-mark-check-mark-graphic-for-excel-excel-clipart-check-mark-260_240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download-microsoft-excel-microsoft-office-icon-excel-png-picture-rh-png-library-com-small-check-mark-check-mark-graphic-for-excel-excel-clipart-check-mark-260_240.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="patra_620x330_51518071961" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patra_620x330_51518071961.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9IH3kgCJMMqH4O3vNMy0iwHaHa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9IH3kgCJMMqH4O3vNMy0iwHaHa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="konkan-food-trail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\konkan-food-trail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dish-two-hires" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dish-two-hires.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dish-two-hires1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dish-two-hires1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4779952309_c97d25813a_z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4779952309_c97d25813a_z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61879742" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61879742.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7385665010_f4819c468d_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7385665010_f4819c468d_o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="account-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="khichdi-625_625x350_61451289605" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khichdi-625_625x350_61451289605.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="methi-paratha_625x350_51460966144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\methi-paratha_625x350_51460966144.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9542254374_9b457721f8_k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9542254374_9b457721f8_k.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nahar-Restaurant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nahar-Restaurant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2303829166_5dc1ca5eb9_z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2303829166_5dc1ca5eb9_z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sarson-ki-saag_makki_di_roti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sarson-ki-saag_makki_di_roti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_user_1176871" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_user_1176871.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="khaman-dhokla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khaman-dhokla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pav-Bhaji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pav-Bhaji.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_batata_poha_(_quick_recipe_)-8150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\big_batata_poha_(_quick_recipe_)-8150.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thalipeeth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thalipeeth.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4395603215_e8527522ff_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4395603215_e8527522ff_o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="89-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\89-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_115111974-stock-photo-maharashtrian-or-marathi-food-platter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_115111974-stock-photo-maharashtrian-or-marathi-food-platter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_2591a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_2591a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triveni-executive-lodging-jalna-lodging-services-6atcn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triveni-executive-lodging-jalna-lodging-services-6atcn1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="144266030904-min" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\144266030904-min.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="houston-hope-lodge-reception" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\houston-hope-lodge-reception.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lodge-reception" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lodge-reception.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="__59_user_login_icon_3078761" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\__59_user_login_icon_3078761.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="316269329_c4098aa64f_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\316269329_c4098aa64f_o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2172142213_9178f0c480_z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2172142213_9178f0c480_z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apps.60402.9007199266251247.f1fdb3b6-91b5-4fb9-a832-427182d0b2db" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apps.60402.9007199266251247.f1fdb3b6-91b5-4fb9-a832-427182d0b2db.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hyderabdi-dum-chicken-biryani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hyderabdi-dum-chicken-biryani.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dal_625x350_61464936734" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dal_625x350_61464936734.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="best-south-indian-food-wedding-lunch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\best-south-indian-food-wedding-lunch.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blurred-background-close-up-coffee-cup-908284" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blurred-background-close-up-coffee-cup-908284.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="__59_user_login_icon_307876" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\__59_user_login_icon_307876.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-lodge-01-300x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-lodge-01-300x300.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="296806262_a0a7ae4921_z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\296806262_a0a7ae4921_z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uttapam-1024x684" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uttapam-1024x684.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-computer-icons-avatar-user-login-5ae149b1d11742.9838994015247139058565" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-computer-icons-avatar-user-login-5ae149b1d11742.9838994015247139058565.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-login-man-human-body-mobile-person-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-login-man-human-body-mobile-person-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vada-pav-sometimes-spelled-wada-popular-vegetarian-fast-food-dish-native-to-indian-state-maharashtra-90764721" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vada-pav-sometimes-spelled-wada-popular-vegetarian-fast-food-dish-native-to-indian-state-maharashtra-90764721.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PicsArt_03-13-11.251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PicsArt_03-13-11.25.531.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
